@@ -105,7 +105,7 @@ hr {
 }
 
 /* Atmosphere div's configuration  */
-#describeDiv {
+.describeDiv {
     display: flex;
     width: 800px;
     margin: 0 auto;
@@ -115,16 +115,16 @@ hr {
     margin: 14px auto;
 }
 
-#describeDiv h2 {
+.describeDiv h2 {
     font-weight: 550;
 }
 
-#describeDiv h3 {
+.describeDiv h3 {
     font-family: 'AlbertSans', sans-serif;
     font-weight: 500;
 }
 
-#describeDiv img {
+.describeDiv img {
     border-radius: 3px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     width: 450px;
@@ -166,3 +166,9 @@ hr {
     transition: all 0.3s ease-in-out;
     margin-bottom: 15px;
 }
+
+/*@media screen and (max-width: 800px) {*/
+/*    .describeDiv {*/
+/*        flex-direction: column;*/
+/*    }*/
+/*}*/
